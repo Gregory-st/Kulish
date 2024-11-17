@@ -18,7 +18,7 @@ namespace Kulish.net.DataBase
 
             Users = new SqlDataAdapter(string.Format(command, "dbo.[User]"), connection);
             Sneakers = new SqlDataAdapter(string.Format(command, "dbo.[Sneakers]"), connection);
-            Buskets = new SqlDataAdapter(string.Format(command, "dbo.[Busket]"), connection);
+            Buskets = new SqlDataAdapter(string.Format(command, "dbo.[Basket]"), connection);
         }
     }
 }

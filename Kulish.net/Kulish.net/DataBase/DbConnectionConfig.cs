@@ -34,9 +34,9 @@ namespace Kulish.net.DataBase
             StreamWriter writer = new StreamWriter(buffered);
 
             writer.WriteLine(DataSourse);
-            writer.WriteLine(Catalog);
-            writer.WriteLine(Login);
-            writer.Write(Password);
+            writer.Write(Catalog);
+            //writer.WriteLine(Login);
+            //writer.Write(Password);
 
             writer.Flush();
             writer.Close();
@@ -50,8 +50,8 @@ namespace Kulish.net.DataBase
 
             DataSourse = lines[0];
             Catalog = lines[1];
-            Login = lines[2];
-            Password = lines[3];
+            //Login = lines[2];
+            //Password = lines[3];
         }
 
         public static DbConnectionConfig OpenAsFile()
@@ -65,8 +65,9 @@ namespace Kulish.net.DataBase
             new StringBuilder()
             .AppendFormat("Data Source={0};", DataSourse)
             .AppendFormat("Initial Catalog={0};", Catalog)
-            .AppendFormat("User ID={0};", Login)
-            .AppendFormat("Password={0}", Password)
+            .Append("Integrated Security=SSPI;")
+            //.AppendFormat("User ID={0};", Login)
+            //.AppendFormat("Password={0}", Password)
             .ToString();
     }
 }

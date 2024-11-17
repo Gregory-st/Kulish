@@ -66,7 +66,7 @@
                     <RowDefinition/>
                 </Grid.RowDefinitions>
 
-                <Border Grid.Row="0" Background="White" CornerRadius="10" MaxHeight="60">
+                <Border Grid.Row="0" Background="White" CornerRadius="10" MaxHeight="80" MinHeight="50">
                     <Border.Effect>
                         <DropShadowEffect 
                             BlurRadius="15" 
@@ -74,6 +74,8 @@
                             Color="Black" 
                             Opacity="0.5"/>
                     </Border.Effect>
+                    
+                    <Image x:Name="Resourse" Margin="5 3"/>
                 </Border>
 
                 <DockPanel LastChildFill="True" Grid.Row="1" Margin="0 5 0 0">

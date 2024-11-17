@@ -49,6 +49,8 @@ namespace Kulish.net
                 card.TextOfDescription = row["descryption"].ToString();
                 card.TextOfPrice = row["price"].ToString();
                 card.ProductId = Convert.ToInt32(row["sneakersID"]);
+                card.PathResourse = row["image"].ToString();
+
                 card.UserId = IdUser;
                 card.Add = AddBusket;
 
@@ -76,6 +78,8 @@ namespace Kulish.net
                 card.TextOfDescription = row["descryption"].ToString();
                 card.TextOfPrice = row["price"].ToString();
                 card.ProductId = Convert.ToInt32(row["sneakersID"]);
+                card.PathResourse = row["image"].ToString();
+
                 card.UserId = Convert.ToInt32(user["userID"]);
                 card.Add = AddBusket;
 
@@ -178,6 +182,8 @@ namespace Kulish.net
                 card.TextOfDescription = row["descryption"].ToString();
                 card.TextOfPrice = row["price"].ToString();
                 card.ProductId = Convert.ToInt32(row["sneakersID"]);
+                card.PathResourse = row["image"].ToString();
+
                 card.UserId = IdUser;
                 card.Add = AddBusket;
 
@@ -201,6 +207,8 @@ namespace Kulish.net
                 card.TextOfDescription = row["descryption"].ToString();
                 card.TextOfPrice = row["price"].ToString();
                 card.ProductId = Convert.ToInt32(row["sneakersID"]);
+                card.PathResourse = row["image"].ToString();
+
                 card.UserId = IdUser;
                 card.Add = AddBusket;
 

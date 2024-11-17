@@ -45,6 +45,7 @@ namespace Kulish.net
                 card.TextOfDescription = row["descryption"].ToString();
                 card.TextOfPrice = row["price"].ToString();
                 card.ProductId = Convert.ToInt32(row["sneakersID"]);
+                card.PathResourse = row["image"].ToString();
 
                 Cards.Children.Add(card);
             }
@@ -123,6 +124,7 @@ namespace Kulish.net
                 card.TextOfDescription = row["descryption"].ToString();
                 card.TextOfPrice = row["price"].ToString();
                 card.ProductId = Convert.ToInt32(row["sneakersID"]);
+                card.PathResourse = row["image"].ToString();
 
                 Cards.Children.Add(card);
             }
@@ -144,6 +146,7 @@ namespace Kulish.net
                 card.TextOfDescription = row["descryption"].ToString();
                 card.TextOfPrice = row["price"].ToString();
                 card.ProductId = Convert.ToInt32(row["sneakersID"]);
+                card.PathResourse = row["image"].ToString();
 
 
                 Cards.Children.Add(card);

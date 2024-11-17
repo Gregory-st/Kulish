@@ -1,5 +1,9 @@
-﻿using System.ComponentModel;
+﻿using System;
+using System.ComponentModel;
+using System.IO;
 using System.Windows.Controls;
+using System.Windows.Media;
+using System.Windows.Media.Imaging;
 
 namespace Kulish.net.UserControls
 {
@@ -11,6 +15,7 @@ namespace Kulish.net.UserControls
     {
         private int id = -1;
         private int user_id = -1;
+        private string resourse = "";
         private AddInBusket Method;
 
         public ProductCard()
@@ -42,6 +47,23 @@ namespace Kulish.net.UserControls
         {
             set => user_id = value;
             get => user_id;
+        }
+        public string PathResourse
+        {
+            set
+            {
+                string path = Path.GetFullPath("resourse");
+
+                if(!Directory.Exists(path)) Directory.CreateDirectory(path);
+
+                path = Path.Combine(path, value);
+                if (!File.Exists(path)) return;
+
+                Uri uri = new Uri(path);
+
+                Resourse.Source = new BitmapImage(uri);
+            }
+            get => resourse;
         }
         public AddInBusket Add
         {

@@ -1,0 +1,98 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "G:\\Projects\\Kulish.net\\Kulish.net\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7BB88C0B-6A7B-47E0-9428-005ADFE07397}|Kulish.net\\Kulish.net.csproj|g:\\projects\\kulish.net\\kulish.net\\kulish.net\\catalogwindow2.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{7BB88C0B-6A7B-47E0-9428-005ADFE07397}|Kulish.net\\Kulish.net.csproj|solutionrelative:kulish.net\\catalogwindow2.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BB88C0B-6A7B-47E0-9428-005ADFE07397}|Kulish.net\\Kulish.net.csproj|G:\\Projects\\Kulish.net\\Kulish.net\\kulish.net\\catalogwindow2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7BB88C0B-6A7B-47E0-9428-005ADFE07397}|Kulish.net\\Kulish.net.csproj|solutionrelative:kulish.net\\catalogwindow2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BB88C0B-6A7B-47E0-9428-005ADFE07397}|Kulish.net\\Kulish.net.csproj|G:\\Projects\\Kulish.net\\Kulish.net\\kulish.net\\catalogwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{7BB88C0B-6A7B-47E0-9428-005ADFE07397}|Kulish.net\\Kulish.net.csproj|solutionrelative:kulish.net\\catalogwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BB88C0B-6A7B-47E0-9428-005ADFE07397}|Kulish.net\\Kulish.net.csproj|G:\\Projects\\Kulish.net\\Kulish.net\\kulish.net\\profilewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7BB88C0B-6A7B-47E0-9428-005ADFE07397}|Kulish.net\\Kulish.net.csproj|solutionrelative:kulish.net\\profilewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BB88C0B-6A7B-47E0-9428-005ADFE07397}|Kulish.net\\Kulish.net.csproj|G:\\Projects\\Kulish.net\\Kulish.net\\kulish.net\\catalogwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7BB88C0B-6A7B-47E0-9428-005ADFE07397}|Kulish.net\\Kulish.net.csproj|solutionrelative:kulish.net\\catalogwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProfileWindow.xaml",
+              "DocumentMoniker": "G:\\Projects\\Kulish.net\\Kulish.net\\Kulish.net\\ProfileWindow.xaml",
+              "RelativeDocumentMoniker": "Kulish.net\\ProfileWindow.xaml",
+              "ToolTip": "G:\\Projects\\Kulish.net\\Kulish.net\\Kulish.net\\ProfileWindow.xaml",
+              "RelativeToolTip": "Kulish.net\\ProfileWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-16T17:08:34.472Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CatalogWindow.xaml.cs",
+              "DocumentMoniker": "G:\\Projects\\Kulish.net\\Kulish.net\\Kulish.net\\CatalogWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Kulish.net\\CatalogWindow.xaml.cs",
+              "ToolTip": "G:\\Projects\\Kulish.net\\Kulish.net\\Kulish.net\\CatalogWindow.xaml.cs",
+              "RelativeToolTip": "Kulish.net\\CatalogWindow.xaml.cs",
+              "ViewState": "AQIAAKsAAAAAAAAAAADwv7sAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T17:09:35.267Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CatalogWindow.xaml",
+              "DocumentMoniker": "G:\\Projects\\Kulish.net\\Kulish.net\\Kulish.net\\CatalogWindow.xaml",
+              "RelativeDocumentMoniker": "Kulish.net\\CatalogWindow.xaml",
+              "ToolTip": "G:\\Projects\\Kulish.net\\Kulish.net\\Kulish.net\\CatalogWindow.xaml",
+              "RelativeToolTip": "Kulish.net\\CatalogWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-16T17:09:32.222Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CatalogWindow2.xaml.cs",
+              "DocumentMoniker": "G:\\Projects\\Kulish.net\\Kulish.net\\Kulish.net\\CatalogWindow2.xaml.cs",
+              "RelativeDocumentMoniker": "Kulish.net\\CatalogWindow2.xaml.cs",
+              "ToolTip": "G:\\Projects\\Kulish.net\\Kulish.net\\Kulish.net\\CatalogWindow2.xaml.cs",
+              "RelativeToolTip": "Kulish.net\\CatalogWindow2.xaml.cs",
+              "ViewState": "AQIAAHMAAAAAAAAAAADwv38AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T16:51:54.515Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CatalogWindow2.xaml",
+              "DocumentMoniker": "G:\\Projects\\Kulish.net\\Kulish.net\\Kulish.net\\CatalogWindow2.xaml",
+              "RelativeDocumentMoniker": "Kulish.net\\CatalogWindow2.xaml",
+              "ToolTip": "G:\\Projects\\Kulish.net\\Kulish.net\\Kulish.net\\CatalogWindow2.xaml",
+              "RelativeToolTip": "Kulish.net\\CatalogWindow2.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-16T16:51:40.71Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

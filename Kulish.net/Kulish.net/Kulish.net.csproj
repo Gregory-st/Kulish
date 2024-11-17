@@ -1,0 +1,46 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="basket.png" />
+    <None Remove="search.png" />
+    <None Remove="user.png" />
+    <None Remove="Карта.png" />
+    <None Remove="корзина.png" />
+    <None Remove="Рисунок1.png" />
+    <None Remove="Рисунок10.png" />
+    <None Remove="Рисунок2.png" />
+    <None Remove="Рисунок4.png" />
+    <None Remove="Рисунок5.png" />
+    <None Remove="Рисунок6.png" />
+    <None Remove="Рисунок8.png" />
+    <None Remove="Рисунок9.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Data.SqlClient" Version="4.9.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="basket.png" />
+    <Resource Include="search.png" />
+    <Resource Include="user.png" />
+    <Resource Include="Карта.png" />
+    <Resource Include="корзина.png" />
+    <Resource Include="Рисунок1.png" />
+    <Resource Include="Рисунок10.png" />
+    <Resource Include="Рисунок2.png" />
+    <Resource Include="Рисунок4.png" />
+    <Resource Include="Рисунок5.png" />
+    <Resource Include="Рисунок6.png" />
+    <Resource Include="Рисунок8.png" />
+    <Resource Include="Рисунок9.png" />
+  </ItemGroup>
+
+</Project>

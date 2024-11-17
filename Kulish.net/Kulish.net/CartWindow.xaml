@@ -4,6 +4,7 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Kulish.net"
+        xmlns:UserControls="clr-namespace:Kulish.net.UserControls"
         mc:Ignorable="d"
         Title="CartWindow" Height="450" Width="800">
     <Grid>
@@ -12,6 +13,16 @@
         <Button Content="Каталог" HorizontalAlignment="Left" Margin="261,8,0,0" VerticalAlignment="Top" FontSize="18" Foreground="White" BorderBrush="#FF3A3A3A" Background="#FF3A3A3A" FontFamily="Montserrat Medium" Height="26" Width="78" Click="Button_Click_1"/>
         <Button Content="Контакты" HorizontalAlignment="Left" Margin="429,8,0,0" VerticalAlignment="Top" FontSize="18" Foreground="White" BorderBrush="#FF3A3A3A" Background="#FF3A3A3A" FontFamily="Montserrat Medium" Height="26" Width="94" Click="Button_Click"/>
         <Button Content="Профиль" Margin="596,8,86,0" VerticalAlignment="Top" FontSize="18" Foreground="White" FontFamily="Montserrat Medium" Background="#FF3A3A3A" BorderBrush="#FF3A3A3A" Height="26" Click="Button_Click_3"/>
+        <ScrollViewer Margin="10,90,0,0">
+            <WrapPanel x:Name="Cards">
+                <UserControls:ProductCard 
+                    x:Name="Pattern" Width="150" Height="250" Margin="30 5" Visibility="Collapsed">
+                    <UserControls:ProductCard.Effect>
+                        <DropShadowEffect BlurRadius="15" Opacity="0.5"/>
+                    </UserControls:ProductCard.Effect>
 
+                </UserControls:ProductCard>
+            </WrapPanel>
+        </ScrollViewer>
     </Grid>
 </Window>

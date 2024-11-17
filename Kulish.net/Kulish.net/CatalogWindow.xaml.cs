@@ -38,6 +38,7 @@ namespace Kulish.net
             config = DbConnectionConfig.OpenAsFile();
             context = new DataBaseContext(config.ToString());
             repository = new RepositorySneakers(context);
+            repositoryBaskets = new RepositoryBaskets(context);
 
             DataTable table = repository.Get();
 
@@ -117,7 +118,7 @@ namespace Kulish.net
 
         private void Button_Click_4(object sender, RoutedEventArgs e)
         {
-            var newForm = new CartWindow();
+            var newForm = new CartWindow(IdUser, context);
             newForm.Show();
             this.Close();
         }

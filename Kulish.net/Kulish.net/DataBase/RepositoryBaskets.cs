@@ -1,6 +1,7 @@
 ﻿using System.Data.SqlClient;
 using System.Data;
 using System;
+using Kulish.net.UserControls;
 
 namespace Kulish.net.DataBase
 {
@@ -20,6 +21,23 @@ namespace Kulish.net.DataBase
             DataSet data = new DataSet();
             context.Buskets.Fill(data);
             return data.Tables[0];
+        }
+
+        public DataTable GetByUserId(int userId)
+        {
+            DataSet data = new DataSet();
+            context.Buskets.Fill(data);
+
+            DataTable table = data.Tables[0];
+            for(int i = table.Rows.Count - 1; i >= 0; i--)
+            {
+                DataRow row = table.Rows[i];
+
+                if (Convert.ToInt32(row["id_user"]) != userId)
+                    table.Rows.Remove(row);
+            }
+
+            return table;
         }
 
         public DataRow GetByUserIdAndSneakersId(int user_id, int sneaker_id)
